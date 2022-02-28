@@ -1,0 +1,44 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <div class="srm-logo">
+      <img
+        src="/assets/images/SRM-Logo.png"
+        class="center"
+        width="50px"
+        height="50px"
+      />
+    </div>
+    <span>Academia - SRM </span>
+    <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+      <ul fxLayout="row" fxLayoutGap="20px">
+        <li>
+          <button mat-button [matMenuTriggerFor]="setting">
+            <mat-icon>settings</mat-icon>
+          </button>
+          <mat-menu #setting="matMenu">
+            <button mat-menu-item>
+              <mat-icon>security</mat-icon>
+              Change Passsword
+            </button>
+            <button mat-menu-item>
+              <mat-icon>person_pin</mat-icon>
+              Upload Profile Picture
+            </button>
+          </mat-menu>
+        </li>
+        <li>
+          <button mat-button [matMenuTriggerFor]="menu">
+            ar6071
+            <mat-icon>person_outline</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+              <mat-icon>exit_to_app</mat-icon>
+              Sign out
+            </button>
+          </mat-menu>
+        </li>
+      </ul>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
