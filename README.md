@@ -1,4 +1,5 @@
 # SrmAcademiaClone
+![image](https://user-images.githubusercontent.com/53821484/156138098-7b153403-898e-4dbb-8e72-d5709b63f0e7.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
